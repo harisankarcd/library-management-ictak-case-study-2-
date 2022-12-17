@@ -39,7 +39,7 @@ signUpRout=(nav)=>
         }
         var datatosend=userData(data)
         datatosend.save()
-        localStorage.setItem('add',true)
+        localStorage.setItem('add',false)
         localStorage.setItem('logged',true)
       
    res.redirect('/') 
